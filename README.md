@@ -1,13 +1,15 @@
 # Image-Restoration_using-GANs
 
 ## Results
--Target image is created from the generator
+- Target image is created from the generator
 ![Demo](assets/Figure_1.png)
+
 In this picture we see the image that we want to restore ("lowres"), the target image ("real image") the result if we apply bicubic interpolation and the result from the method based on GANs
 ![Demo](assets/animation.gif)
+
 In this picture it looks how method is searching for the target image
 
--Target image is a real world image
+- Target image is a real world image
 
 ## Enviroment
 
