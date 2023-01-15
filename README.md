@@ -1,5 +1,10 @@
 # Image-Restoration_using-GANs
 
+## Target
+The target of this project is to restore the image from low to high resolution and is based on [this](https://arxiv.org/pdf/2005.14036.pdf)
+## Enviroment
+
+## Usage
 ## Results
 - Target image is created from the generator
 
@@ -13,7 +18,6 @@ In this picture it looks how method is searching for the target image
 
 - Target image is a real world image
 
-## Enviroment
 
 ## References
 Code is based on [this](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/tf_hub_generative_image_module.ipynb#scrollTo=KUu4vOt5zI9d)
