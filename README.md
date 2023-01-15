@@ -7,6 +7,7 @@ In this picture we see the image that we want to restore ("lowres"), the target 
 ![Demo](assets/Figure_1.png)
 
 In this picture it looks how method is searching for the target image
+
 ![Demo](assets/animation.gif)
 
 
