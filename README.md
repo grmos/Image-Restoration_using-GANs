@@ -1,5 +1,8 @@
 # Image-Restoration_using-GANs
 
+![Demo](assets/animation.gif)
+![Demo](assets/Figure_1.png)
+
 ## Enviroment
 
 ## References
