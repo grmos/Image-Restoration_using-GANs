@@ -17,7 +17,7 @@ In this picture it looks how method is searching for the target image
 
 
 - Target image is a real world image
-
+![Demo](assets/25.png)
 
 ## References
 - Code is based on [this](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/tf_hub_generative_image_module.ipynb#scrollTo=KUu4vOt5zI9d)
