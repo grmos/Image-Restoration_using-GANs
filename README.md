@@ -3,6 +3,9 @@
 ## Target
 The target of this project is to restore the image from low to high resolution and is based on [this](https://arxiv.org/pdf/2005.14036.pdf)
 ## Enviroment
+- Python == 3.8.16
+- Install libraries: `pip3 install -r requirements.txt`
+- conda == 22.9.0
 
 ## Usage
 ## Results
