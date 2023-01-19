@@ -13,10 +13,10 @@ The target of this project is to restore the image from low to high resolution a
 
 ## Usage
 1. If image comes from module space run `python facerestoraion.py -LR <Low Resolution>`
-2. If image comes from your disc with resolution greater than 128, you should choose the low resolution that should be a power of two (32,64) and run `python facerestoraion.py -if 0 -LR <Low Resolution> -ip `"images/<image_name>"`  -ns 50000`
-3. If image comes from your disc with resolution smaller than 128 run `python facerestoraion.py -if 0 -resi 1  -ip `"images/<image_name>"`   -ns 50000`
+2. If image comes from your disc with resolution greater than 128, you should choose the low resolution that should be a power of two (32,64) and run `python facerestoraion.py -if 0 -LR <Low Resolution> -ip `"images/<image_name>"` -ns 50000`
+3. If image comes from your disc with resolution smaller than 128 run `python facerestoraion.py -if 0 -resi 1  -ip `"images/<image_name>"` -ns 50000`
 - Notes
-2 & 3 take lot of time
+ 2 & 3 take lot of time
 
 ## Results
 - Target image is created from the generator
