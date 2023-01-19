@@ -7,6 +7,9 @@ The target of this project is to restore the image from low to high resolution a
 - Install libraries: `pip3 install -r requirements.txt`
 - conda == 22.9.0
 
+## Preparetion
+Download model from [here](https://tfhub.dev/google/progan-128/1) ,unzip and place it in `output/facemodel` folder
+
 ## Usage
 ## Results
 - Target image is created from the generator
