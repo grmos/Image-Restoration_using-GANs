@@ -8,9 +8,16 @@ The target of this project is to restore the image from low to high resolution a
 - conda == 22.9.0
 
 ## Preparetion
-Download model from [here](https://tfhub.dev/google/progan-128/1) ,unzip and place it in `output/facemodel` folder
+1. Download model from [here](https://tfhub.dev/google/progan-128/1) ,unzip and place it in `output/facemodel` folder
+2. Place your test images in `images/` folder
 
 ## Usage
+1. If image comes from module space run `python facerestoraion.py -LR <Low Resolution>`
+2. If image comes from your disc with resolution greater than 128, you should choose the low resolution that should be a power of two (32,64) and run `python facerestoraion.py -if 0 -LR <Low Resolution> -ip `"images/<image_name>"`  -ns 50000`
+3. If image comes from your disc with resolution smaller than 128 run `python facerestoraion.py -if 0 -resi 1  -ip `"images/<image_name>"`   -ns 50000`
+- Notes
+2 & 3 take lot of time
+
 ## Results
 - Target image is created from the generator
 
